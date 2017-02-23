@@ -1,0 +1,70 @@
+body {    
+	margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+	position: relative;
+}
+
+.discoball {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	background-color: #aaa;
+	box-shadow: 0 0 2px 2px #ccc;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	z-index: 20;
+}
+
+.line {
+    content: " ";
+    height: 9.4em;
+    position: absolute;
+    display: block;
+    width: 1px;
+    background: #aaa;
+    box-shadow: 0 0 10em 0.3em #2a7676;
+    top: 0;
+    left: 50%;
+    z-index: 10;
+}
+
+.discoball.here {
+	background: #FF512F; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #FF512F , #DD2476); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #FF512F , #DD2476); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.discoball.goes {
+	background: #E55D87; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #E55D87 , #5FC3E4); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #E55D87 , #5FC3E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.discoball.our {
+	background: #3494E6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #3494E6 , #EC6EAD); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #3494E6 , #EC6EAD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.discoball.awesome {
+	background: #3494E6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #3494E6 , #EC6EAD); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #3494E6 , #EC6EAD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.discoball.disco {
+	background: #00c3ff; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #00c3ff , #ffff1c); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #00c3ff , #ffff1c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.discoball.ball {
+	background: #de6161; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #de6161 , #2657eb); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #de6161 , #2657eb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
